@@ -1,6 +1,6 @@
 def euclides (A, B):
 
-  // variáveis para efetuar trocas
+  #variáveis para efetuar trocas
   a, b = A,B
   x,x1 = 1,0
   y,y1 = 0,1
