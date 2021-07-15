@@ -1,5 +1,7 @@
-def euclides (a, b):
+def euclides (A, B):
 
+  // variáveis para efetuar trocas
+  a, b = A,B
   x,x1 = 1,0
   y,y1 = 0,1
 
@@ -12,5 +14,5 @@ def euclides (a, b):
     y, y1 = y1, y - (quociente * y1)
 
     if b == 0 :
-      return(a,x,y)
+      return(a,x,y) # tais que MDC(A,B) = a = x * A + y * B
       break
